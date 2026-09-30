@@ -51,7 +51,7 @@ public abstract class BaseActivity extends Activity {
     }
 
     /** 显示加载框 */
-    protected void showLoading(String msg) {
+    protected void showLoading(final String msg) {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {

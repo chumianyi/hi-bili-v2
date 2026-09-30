@@ -120,9 +120,9 @@ public class HomeFragment extends Fragment {
         mTvPopular.setTextColor(mode == MODE_POPULAR ? pink : gray);
         mTvRanking.setTextColor(mode == MODE_RANKING ? pink : gray);
         mTvRegion.setTextColor(mode == MODE_REGION ? pink : gray);
-        mTvPopular.getPaint().setFakeBold(mode == MODE_POPULAR);
-        mTvRanking.getPaint().setFakeBold(mode == MODE_RANKING);
-        mTvRegion.getPaint().setFakeBold(mode == MODE_REGION);
+        mTvPopular.getPaint().setFakeBoldText(mode == MODE_POPULAR);
+        mTvRanking.getPaint().setFakeBoldText(mode == MODE_RANKING);
+        mTvRegion.getPaint().setFakeBoldText(mode == MODE_REGION);
         loadPopular(true);
     }
 

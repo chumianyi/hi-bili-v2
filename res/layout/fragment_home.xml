@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 顶部切换 Tab: 热门/排行榜/分区 -->
+    <LinearLayout
+        android:id="@+id/home_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/card_bg"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tab_popular"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="热门"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/tab_ranking"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="排行榜"
+            android:textSize="15sp"
+            android:textColor="@color/textSecondary"
+            android:clickable="true" />
+
+        <TextView
+            android:id="@+id/tab_region"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="分区"
+            android:textSize="15sp"
+            android:textColor="@color/textSecondary"
+            android:clickable="true" />
+    </LinearLayout>
+
+    <!-- 下拉刷新指示条 (原生 ProgressBar, 无 support 依赖) -->
+    <ProgressBar
+        android:id="@+id/refresh_bar"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:indeterminate="true"
+        android:visibility="gone"
+        android:progressTint="@color/colorPrimary" />
+
+    <ListView
+        android:id="@+id/list_videos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/divider"
+        android:dividerHeight="1dp"
+        android:scrollbars="vertical" />
+</LinearLayout>

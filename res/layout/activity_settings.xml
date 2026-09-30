@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 播放方式 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/card_bg"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_play_type"
+                android:textSize="15sp"
+                android:textColor="@color/textPrimary" />
+
+            <RadioGroup
+                android:id="@+id/rg_player"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/rb_internal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_play_internal"
+                    android:layout_marginRight="24dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_external"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_play_external" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="8dp" android:background="@color/windowBackground" />
+
+        <!-- 主题 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/card_bg"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_theme"
+                android:textSize="15sp"
+                android:textColor="@color/textPrimary" />
+
+            <RadioGroup
+                android:id="@+id/rg_theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/rb_light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_theme_light"
+                    android:layout_marginRight="16dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_theme_dark"
+                    android:layout_marginRight="16dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings_theme_auto" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <View android:layout_width="match_parent" android:layout_height="8dp" android:background="@color/windowBackground" />
+
+        <!-- 其它设置项 -->
+        <TextView
+            android:id="@+id/row_clear_cache"
+            style="@style/ListItem"
+            android:text="@string/settings_clear_cache"
+            android:textSize="15sp" />
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" />
+
+        <TextView
+            android:id="@+id/row_clear_history"
+            style="@style/ListItem"
+            android:text="@string/settings_clear_history"
+            android:textSize="15sp" />
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" />
+
+        <TextView
+            android:id="@+id/row_check_update"
+            style="@style/ListItem"
+            android:text="@string/settings_check_update"
+            android:textSize="15sp" />
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/divider" />
+
+        <TextView
+            android:id="@+id/row_about"
+            style="@style/ListItem"
+            android:text="@string/settings_about"
+            android:textSize="15sp" />
+    </LinearLayout>
+</ScrollView>

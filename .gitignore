@@ -1,0 +1,23 @@
+# 构建产物
+build/
+output/
+*.apk
+*.ap_
+*.dex
+*.class
+
+# 签名 keystore
+*.keystore
+debug.keystore
+
+# 本地生成
+gen/
+compiled_res/
+sources.txt
+
+# 系统/IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/

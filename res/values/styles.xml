@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============ M2 主题 (默认, API22+) ============ -->
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/textPrimary</item>
+        <item name="android:textColorSecondary">@color/textSecondary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- ============ M3 主题 (API28+, 更现代色板) ============ -->
+    <style name="AppTheme_M3" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/colorPrimary_M3</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark_M3</item>
+        <item name="android:colorAccent">@color/colorAccent_M3</item>
+        <item name="android:windowBackground">@color/windowBackground_M3</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark_M3</item>
+        <item name="android:textColorPrimary">@color/textPrimary_M3</item>
+        <item name="android:textColorSecondary">@color/textSecondary_M3</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- ============ 开屏主题 (全屏) ============ -->
+    <style name="SplashTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/splash_bg</item>
+        <item name="android:statusBarColor">@color/splash_bg</item>
+        <item name="android:navigationBarColor">@color/splash_bg</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- ============ 播放页主题 (全屏黑色) ============ -->
+    <style name="PlayerTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <!-- ============ 通用控件样式 ============ -->
+    <style name="ToolbarTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="TagChip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_chip</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:layout_margin">6dp</item>
+    </style>
+
+    <!-- 详情页数据项 -->
+    <style name="StatItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textSecondary</item>
+    </style>
+
+    <!-- 详情页互动按钮 -->
+    <style name="ActionItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+</resources>

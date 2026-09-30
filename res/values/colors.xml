@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== M2 主题色 (B站粉系) ===== -->
+    <color name="colorPrimary">#FB7299</color>
+    <color name="colorPrimaryDark">#E85A80</color>
+    <color name="colorAccent">#00A1D6</color>
+    <color name="windowBackground">#F5F5F5</color>
+    <color name="textPrimary">#333333</color>
+    <color name="textSecondary">#999999</color>
+    <color name="divider">#E0E0E0</color>
+
+    <!-- ===== M3 主题色 (粉紫 Material You 风格) ===== -->
+    <color name="colorPrimary_M3">#6750A4</color>
+    <color name="colorPrimaryDark_M3">#4F378B</color>
+    <color name="colorAccent_M3">#7D5260</color>
+    <color name="windowBackground_M3">#FFFBFE</color>
+    <color name="textPrimary_M3">#1C1B1F</color>
+    <color name="textSecondary_M3">#49454F</color>
+
+    <!-- ===== 通用 ===== -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="splash_bg">#FFF0F4</color>
+
+    <!-- 图标 / 控件 -->
+    <color name="nav_normal">#666666</color>
+    <color name="nav_selected">#FB7299</color>
+    <color name="badge_bg">#AA000000</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="pink_light">#FF85AB</color>
+    <color name="chip_bg">#EEEEEE</color>
+
+    <!-- ===== 深色模式 ===== -->
+    <color name="windowBackground_Dark">#121212</color>
+    <color name="card_bg_Dark">#1E1E1E</color>
+    <color name="textPrimary_Dark">#EDEDED</color>
+    <color name="textSecondary_Dark">#AAAAAA</color>
+    <color name="divider_Dark">#333333</color>
+</resources>

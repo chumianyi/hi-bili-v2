@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hi！bili</string>
+
+    <!-- 底部 Tab -->
+    <string name="tab_home">首页</string>
+    <string name="tab_search">搜索</string>
+    <string name="tab_history">历史</string>
+    <string name="tab_mine">我的</string>
+
+    <!-- 通用 -->
+    <string name="loading">正在加载中...</string>
+    <string name="load_failed">加载失败，请重试</string>
+    <string name="load_more">加载更多</string>
+    <string name="no_more">没有更多了</string>
+    <string name="network_error">网络异常，请检查网络</string>
+
+    <!-- 登录 -->
+    <string name="login">登录</string>
+    <string name="logout">退出登录</string>
+    <string name="click_login">点击登录</string>
+    <string name="scan_tip">请使用哔哩哔哩客户端扫码登录</string>
+    <string name="scan_waiting">等待扫码...</string>
+    <string name="scan_confirmed">已扫码，请在手机上确认</string>
+    <string name="scan_expired">二维码已过期，重新生成中...</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_failed">登录失败</string>
+
+    <!-- 我的 -->
+    <string name="nav_history">历史记录</string>
+    <string name="nav_favorite">我的收藏</string>
+    <string name="nav_settings">设置</string>
+    <string name="nav_about">关于</string>
+    <string name="coin_unit">硬币</string>
+
+    <!-- 视频详情 -->
+    <string name="play">播放</string>
+    <string name="danmaku">弹幕</string>
+    <string name="reply">评论</string>
+    <string name="favorite">收藏</string>
+    <string name="coin">投币</string>
+    <string name="share">分享</string>
+    <string name="like">点赞</string>
+    <string name="follow">关注</string>
+    <string name="unfollow">已关注</string>
+    <string name="desc_more">展开</string>
+    <string name="desc_fold">收起</string>
+    <string name="pages">选集</string>
+    <string name="no_comment">还没有评论，来抢首评</string>
+    <string name="comments">评论</string>
+
+    <!-- 搜索 -->
+    <string name="search_hint">搜索视频、UP主</string>
+    <string name="search_btn">搜索</string>
+    <string name="search_history">搜索历史</string>
+    <string name="clear_history">清除历史</string>
+    <string name="no_history">暂无搜索历史</string>
+
+    <!-- 历史 -->
+    <string name="history_empty">暂无观看历史</string>
+    <string name="clear_all">清空全部</string>
+    <string name="delete">删除</string>
+    <string name="confirm_clear_all">确定要清空全部观看历史吗？</string>
+
+    <!-- 设置 -->
+    <string name="settings">设置</string>
+    <string name="settings_play_type">播放方式</string>
+    <string name="settings_play_internal">内置播放器</string>
+    <string name="settings_play_external">外置播放器</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_theme_light">浅色</string>
+    <string name="settings_theme_dark">深色</string>
+    <string name="settings_theme_auto">跟随系统</string>
+    <string name="settings_clear_cache">清除缓存</string>
+    <string name="settings_clear_history">清除观看历史</string>
+    <string name="settings_check_update">检查更新</string>
+    <string name="settings_about">关于 Hi！bili</string>
+    <string name="cache_cleared">缓存已清除</string>
+    <string name="history_cleared">历史已清空</string>
+    <string name="theme_reboot_tip">主题已更改，重启后生效</string>
+    <string name="no_update">当前已是最新版本</string>
+    <string name="about_desc">Hi！bili v2.0.0\n一个开源的哔哩哔哩第三方客户端\n仅供学习交流，请支持正版\n开源协议：GPL/MIT</string>
+
+    <!-- 播放页 -->
+    <string name="danmaku_on">弹幕开</string>
+    <string name="danmaku_off">弹幕关</string>
+    <string name="external_player">外置播放器</string>
+    <string name="fullscreen">全屏</string>
+    <string name="exit_fullscreen">退出全屏</string>
+    <string name="play_failed">视频播放失败</string>
+
+    <!-- 崩溃 -->
+    <string name="crash_title">很抱歉，应用出现了异常</string>
+    <string name="restart_app">重启应用</string>
+</resources>

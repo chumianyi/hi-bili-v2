@@ -41,7 +41,7 @@ public class UpdateChecker {
     }
 
     /** 用 DownloadManager 下载 APK 并在完成后触发安装 */
-    public static void downloadAndInstall(Context ctx, String url) {
+    public static void downloadAndInstall(final Context ctx, String url) {
         try {
             File apkFile = new File(ctx.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), "update.apk");
             if (apkFile.exists()) apkFile.delete();

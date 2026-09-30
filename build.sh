@@ -71,6 +71,7 @@ done
     --manifest "$PROJECT_DIR/AndroidManifest.xml" \
     --min-sdk-version 22 \
     --target-sdk-version 34 \
+    -A "$PROJECT_DIR/assets" \
     -R "$BUILD_DIR/compiled_res/"*.flat \
     -o "$BUILD_DIR/app.apk" \
     --java "$BUILD_DIR/gen" \
